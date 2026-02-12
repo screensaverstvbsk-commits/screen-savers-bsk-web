@@ -23,9 +23,17 @@ const App: React.FC = () => {
             <a href="#contact" className="hover:text-red-600 transition-colors">Contact</a>
           </nav>
 
-          <a href="tel:+919606860679" className="bg-slate-900 text-white px-6 py-3 rounded-xl font-bold hover:bg-red-600 transition-all flex items-center gap-2 shadow-lg hover:shadow-red-600/20 active:scale-95">
-            <span className="hidden sm:inline">24/7 Helpline:</span> 96068 60679
-          </a>
+          <div className="flex items-center gap-2">
+            <a href="https://wa.me/919606860679" className="bg-green-600 text-white p-3 rounded-xl hover:bg-green-700 transition-all shadow-lg active:scale-95 flex items-center justify-center">
+              <img src="https://cdn.simpleicons.org/whatsapp/ffffff" className="w-5 h-5" alt="WA" />
+            </a>
+            <a href="tel:+919606860679" className="bg-slate-900 text-white px-4 py-3 rounded-xl font-bold hover:bg-red-600 transition-all flex items-center gap-2 shadow-lg active:scale-95 text-sm md:text-base">
+              <span className="hidden sm:inline text-xs md:text-sm text-slate-400 uppercase tracking-tighter mr-1">24/7 Helpline:</span>
+              <span className="flex items-center gap-1">
+                96068 60679
+              </span>
+            </a>
+          </div>
         </div>
       </header>
 
@@ -52,7 +60,7 @@ const App: React.FC = () => {
               Board Repair
             </h1>
             <p className="text-slate-300 text-lg md:text-xl mb-12 max-w-xl leading-relaxed">
-              Authorized lab for <span className="text-white font-bold underline decoration-red-600">Samsung, Sony, OnePlus, Panasonic, MI, Philips, LG & TCL</span>.
+              Authorized lab for <span className="text-white font-bold underline decoration-red-600">Samsung, Sony, OnePlus, Panasonic, MI & LG</span>.
               We resolve cracked panels, horizontal lines, and motherboard failures using genuine factory-calibrated components.
             </p>
             <div className="flex flex-wrap gap-5">
@@ -302,13 +310,12 @@ const App: React.FC = () => {
         </div>
       </footer>
 
-      {/* Floating CTA */}
-      <div className="fixed bottom-8 left-1/2 -translate-x-1/2 z-50 flex items-center gap-4 w-[calc(100%-2rem)] max-w-lg animate-fade-in-up">
-        <a href="tel:+919606860679" className="flex-[1.2] bg-slate-900 text-white h-18 py-4 rounded-3xl flex items-center justify-center gap-4 font-black text-lg shadow-2xl hover:bg-slate-800 active:scale-95 transition-all border border-white/10">
-          <span className="text-2xl animate-pulse">📞</span> Call Tech
+      <div className="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 flex items-center gap-3 w-[calc(100%-1.5rem)] max-w-md animate-fade-in-up">
+        <a href="tel:+919606860679" className="flex-[1.4] bg-slate-900 text-white h-16 rounded-2xl flex items-center justify-center gap-3 font-bold text-base shadow-2xl hover:bg-slate-800 active:scale-95 transition-all border border-white/10">
+          <span className="text-xl animate-pulse">📞</span> Call Expert
         </a>
-        <a href="https://wa.me/919606860679" className="flex-1 bg-green-600 text-white h-18 py-4 rounded-3xl flex items-center justify-center gap-4 font-black text-lg shadow-2xl hover:bg-green-700 active:scale-95 transition-all">
-          <img src="https://cdn.simpleicons.org/whatsapp/ffffff" className="w-6 h-6" alt="WA" />
+        <a href="https://wa.me/919606860679" className="flex-1 bg-green-600 text-white h-16 rounded-2xl flex items-center justify-center gap-3 font-bold text-base shadow-2xl hover:bg-green-700 active:scale-95 transition-all">
+          <img src="https://cdn.simpleicons.org/whatsapp/ffffff" className="w-5 h-5" alt="WA" />
           WhatsApp
         </a>
       </div>

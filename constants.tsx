@@ -12,7 +12,7 @@ export const SERVICES: Service[] = [
     description: 'Expert replacement of cracked or damaged LED, OLED, and QLED panels. We use industrial-grade suction lifts and original factory-sealed display modules to restore perfect clarity and color accuracy.',
     icon: '📺',
     image: 'https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&q=80&w=1200', // Actual television on a repair workbench with technician
-    brands: ['Samsung', 'Sony', 'OnePlus', 'Panasonic', 'MI', 'Philips', 'LG', 'TCL']
+    brands: ['Samsung', 'Sony', 'OnePlus', 'Panasonic', 'MI', 'LG']
   },
   {
     id: 'motherboard',
@@ -72,22 +72,10 @@ export const BRANDS: Brand[] = [
     specialty: 'Vivid Picture Engine & App Support'
   },
   {
-    name: 'Philips',
-    logo: 'https://cdn.simpleicons.org/philips/002D72',
-    description: 'Ambilight & Saphi OS TV restoration',
-    specialty: 'P5 Engine & Ambilight Electronics'
-  },
-  {
     name: 'LG',
     logo: 'https://cdn.simpleicons.org/lg/A50034',
     description: 'OLED, NanoCell & WebOS specialists',
     specialty: 'Alpha 9 Gen 5 & pixel-level repair'
-  },
-  {
-    name: 'TCL',
-    logo: 'https://cdn.simpleicons.org/tcl/E00021',
-    description: 'Mini-LED & Google TV support',
-    specialty: 'AiPQ Processor & Backlight Arrays'
   }
 ];
 
