@@ -11,7 +11,7 @@ const App: React.FC = () => {
           <div className="flex items-center gap-3">
             <div className="bg-red-600 text-white font-righteous p-2 rounded-lg text-xl shadow-md">SB</div>
             <div className="flex flex-col">
-              <span className="font-bold text-slate-900 leading-tight">Screen Savers BSK</span>
+              <span className="font-bold text-slate-900 leading-tight">Screen Savers</span>
               <span className="text-xs text-slate-500 uppercase tracking-tighter font-semibold">TV Repair Specialists</span>
             </div>
           </div>
@@ -27,11 +27,10 @@ const App: React.FC = () => {
             <a href="https://wa.me/919606860679" className="bg-green-600 text-white p-3 rounded-xl hover:bg-green-700 transition-all shadow-lg active:scale-95 flex items-center justify-center">
               <img src="https://cdn.simpleicons.org/whatsapp/ffffff" className="w-5 h-5" alt="WA" />
             </a>
-            <a href="tel:+919606860679" className="bg-slate-900 text-white px-4 py-3 rounded-xl font-bold hover:bg-red-600 transition-all flex items-center gap-2 shadow-lg active:scale-95 text-sm md:text-base">
-              <span className="hidden sm:inline text-xs md:text-sm text-slate-400 uppercase tracking-tighter mr-1">24/7 Helpline:</span>
-              <span className="flex items-center gap-1">
-                96068 60679
-              </span>
+            <a href="tel:+919606860679" aria-label="Call Helpline" className="bg-red-600 text-white p-3 rounded-xl hover:bg-red-700 transition-all shadow-lg active:scale-95 flex items-center justify-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+              </svg>
             </a>
           </div>
         </div>
@@ -266,7 +265,7 @@ const App: React.FC = () => {
             <div className="col-span-2 space-y-8">
               <div className="flex items-center gap-4">
                 <div className="bg-red-600 text-white font-righteous p-2.5 rounded-xl text-2xl shadow-lg">SB</div>
-                <span className="text-3xl font-righteous tracking-tight">Screen Savers BSK</span>
+                <span className="text-3xl font-righteous tracking-tight">Screen Savers</span>
               </div>
               <p className="text-slate-500 max-w-md leading-relaxed text-lg font-medium">
                 Bengaluru's specialized lab for premium Smart TV restoration. We maintain original factory specifications across all brands we service.
@@ -301,7 +300,7 @@ const App: React.FC = () => {
           </div>
 
           <div className="pt-10 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6 text-slate-600 text-xs font-bold uppercase tracking-widest">
-            <p>&copy; 2026 Screen Savers BSK TV Repair Bengaluru. Independent Authorized Specialist Hub.</p>
+            <p>&copy; 2026 Screen Savers TV Repair Bengaluru. Independent Authorized Specialist Hub.</p>
             <div className="flex gap-10">
               <a href="#" className="hover:text-white transition-colors">Privacy</a>
               <a href="#" className="hover:text-white transition-colors">Terms</a>
