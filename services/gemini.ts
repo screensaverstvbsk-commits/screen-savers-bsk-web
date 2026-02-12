@@ -26,6 +26,6 @@ export const troubleshootTV = async (issue: string) => {
     return response.text;
   } catch (error) {
     console.error("Gemini Error:", error);
-    return "I'm having trouble analyzing this right now. Please call us at 9606860679 for an immediate expert consultation.";
+    return "I'm having trouble analyzing this right now. Please call us at 9606960679 for an immediate expert consultation.";
   }
 };

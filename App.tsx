@@ -24,10 +24,10 @@ const App: React.FC = () => {
           </nav>
 
           <div className="flex items-center gap-2">
-            <a href="https://wa.me/919606860679" className="bg-green-600 text-white p-3 rounded-xl hover:bg-green-700 transition-all shadow-lg active:scale-95 flex items-center justify-center">
+            <a href="https://wa.me/919606960679" className="bg-green-600 text-white p-3 rounded-xl hover:bg-green-700 transition-all shadow-lg active:scale-95 flex items-center justify-center">
               <img src="https://cdn.simpleicons.org/whatsapp/ffffff" className="w-5 h-5" alt="WA" />
             </a>
-            <a href="tel:+919606860679" aria-label="Call Helpline" className="bg-red-600 text-white p-3 rounded-xl hover:bg-red-700 transition-all shadow-lg active:scale-95 flex items-center justify-center">
+            <a href="tel:+919606960679" aria-label="Call Helpline" className="bg-red-600 text-white p-3 rounded-xl hover:bg-red-700 transition-all shadow-lg active:scale-95 flex items-center justify-center">
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
               </svg>
@@ -66,7 +66,7 @@ const App: React.FC = () => {
               <a href="#contact" className="bg-red-600 hover:bg-red-700 text-white px-10 py-5 rounded-2xl font-bold text-lg transition-all shadow-xl shadow-red-600/30 active:scale-95">
                 Book Doorstep Visit
               </a>
-              <a href="https://wa.me/919606860679" className="bg-white/5 hover:bg-white/10 text-white backdrop-blur-xl px-10 py-5 rounded-2xl font-bold text-lg border border-white/10 transition-all flex items-center gap-3">
+              <a href="https://wa.me/919606960679" className="bg-white/5 hover:bg-white/10 text-white backdrop-blur-xl px-10 py-5 rounded-2xl font-bold text-lg border border-white/10 transition-all flex items-center gap-3">
                 <img src="https://cdn.simpleicons.org/whatsapp/ffffff" className="w-6 h-6" alt="WA" />
                 WhatsApp Tech
               </a>
@@ -224,7 +224,7 @@ const App: React.FC = () => {
                   <div className="text-3xl bg-white/10 w-16 h-16 rounded-2xl flex items-center justify-center backdrop-blur-md">📞</div>
                   <div className="relative z-10">
                     <h4 className="font-bold mb-2 uppercase tracking-widest text-[10px] text-red-500">24/7 Support Hotline</h4>
-                    <p className="text-3xl font-righteous tracking-tight">+91 96068 60679</p>
+                    <p className="text-3xl font-righteous tracking-tight">+91 96069 60679</p>
                     <p className="text-slate-400 text-xs mt-2 font-medium">Direct technical consultation with an expert</p>
                   </div>
                 </div>
@@ -247,7 +247,7 @@ const App: React.FC = () => {
                 </div>
                 <h3 className="text-3xl font-righteous text-slate-900 mb-6 drop-shadow-sm">Book Visit</h3>
                 <p className="text-slate-800 font-bold mb-10 max-w-sm drop-shadow-sm">Our technician will reach your location within 120 minutes with original spares.</p>
-                <a href="https://wa.me/919606860679" className="w-full max-w-xs bg-green-600 text-white py-5 rounded-2xl font-bold text-lg hover:bg-green-700 transition-all shadow-xl shadow-green-600/30 flex items-center justify-center gap-3 active:scale-95">
+                <a href="https://wa.me/919606960679" className="w-full max-w-xs bg-green-600 text-white py-5 rounded-2xl font-bold text-lg hover:bg-green-700 transition-all shadow-xl shadow-green-600/30 flex items-center justify-center gap-3 active:scale-95">
                   <img src="https://cdn.simpleicons.org/whatsapp/ffffff" className="w-6 h-6" alt="WA" />
                   Book on WhatsApp
                 </a>
@@ -272,7 +272,7 @@ const App: React.FC = () => {
               </p>
               <div className="flex gap-4">
                 {['whatsapp'].map(social => (
-                  <a key={social} href="https://wa.me/919606860679" className="w-12 h-12 rounded-2xl bg-white/5 flex items-center justify-center hover:bg-red-600 transition-all border border-white/5 hover:border-red-500 shadow-xl">
+                  <a key={social} href="https://wa.me/919606960679" className="w-12 h-12 rounded-2xl bg-white/5 flex items-center justify-center hover:bg-red-600 transition-all border border-white/5 hover:border-red-500 shadow-xl">
                     <img src={`https://cdn.simpleicons.org/${social}/ffffff`} className="w-5 h-5 opacity-70" alt={social} />
                   </a>
                 ))}
@@ -310,10 +310,10 @@ const App: React.FC = () => {
       </footer>
 
       <div className="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 flex items-center gap-3 w-[calc(100%-1.5rem)] max-w-md animate-fade-in-up">
-        <a href="tel:+919606860679" className="flex-[1.4] bg-slate-900 text-white h-16 rounded-2xl flex items-center justify-center gap-3 font-bold text-base shadow-2xl hover:bg-slate-800 active:scale-95 transition-all border border-white/10">
+        <a href="tel:+919606960679" className="flex-[1.4] bg-slate-900 text-white h-16 rounded-2xl flex items-center justify-center gap-3 font-bold text-base shadow-2xl hover:bg-slate-800 active:scale-95 transition-all border border-white/10">
           <span className="text-xl animate-pulse">📞</span> Call Expert
         </a>
-        <a href="https://wa.me/919606860679" className="flex-1 bg-green-600 text-white h-16 rounded-2xl flex items-center justify-center gap-3 font-bold text-base shadow-2xl hover:bg-green-700 active:scale-95 transition-all">
+        <a href="https://wa.me/919606960679" className="flex-1 bg-green-600 text-white h-16 rounded-2xl flex items-center justify-center gap-3 font-bold text-base shadow-2xl hover:bg-green-700 active:scale-95 transition-all">
           <img src="https://cdn.simpleicons.org/whatsapp/ffffff" className="w-5 h-5" alt="WA" />
           WhatsApp
         </a>
