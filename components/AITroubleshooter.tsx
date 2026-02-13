@@ -73,7 +73,7 @@ const AITroubleshooter: React.FC = () => {
               href="tel:+919606960679"
               className="flex-1 bg-slate-900 text-white text-center py-3 rounded-lg font-bold hover:bg-slate-800 transition-colors"
             >
-              Call Specialist
+              Call +91 96069 60679
             </a>
           </div>
         </div>

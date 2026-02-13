@@ -23,15 +23,18 @@ const App: React.FC = () => {
             <a href="#contact" className="hover:text-red-600 transition-colors">Contact</a>
           </nav>
 
-          <div className="flex items-center gap-2">
-            <a href="https://wa.me/919606960679" className="bg-green-600 text-white p-3 rounded-xl hover:bg-green-700 transition-all shadow-lg active:scale-95 flex items-center justify-center">
-              <img src="https://cdn.simpleicons.org/whatsapp/ffffff" className="w-5 h-5" alt="WA" />
-            </a>
-            <a href="tel:+919606960679" aria-label="Call Helpline" className="bg-red-600 text-white p-3 rounded-xl hover:bg-red-700 transition-all shadow-lg active:scale-95 flex items-center justify-center">
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
-              </svg>
-            </a>
+          <div className="flex items-center gap-3">
+            <span className="hidden sm:inline-block font-bold text-slate-700">+91 96069 60679</span>
+            <div className="flex items-center gap-2">
+              <a href="https://wa.me/919606960679" className="bg-green-600 text-white p-3 rounded-xl hover:bg-green-700 transition-all shadow-lg active:scale-95 flex items-center justify-center">
+                <img src="https://cdn.simpleicons.org/whatsapp/ffffff" className="w-5 h-5" alt="WA" />
+              </a>
+              <a href="tel:+919606960679" aria-label="Call Helpline" className="bg-red-600 text-white p-3 rounded-xl hover:bg-red-700 transition-all shadow-lg active:scale-95 flex items-center justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                </svg>
+              </a>
+            </div>
           </div>
         </div>
       </header>
@@ -311,7 +314,7 @@ const App: React.FC = () => {
 
       <div className="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 flex items-center gap-3 w-[calc(100%-1.5rem)] max-w-md animate-fade-in-up">
         <a href="tel:+919606960679" className="flex-[1.4] bg-slate-900 text-white h-16 rounded-2xl flex items-center justify-center gap-3 font-bold text-base shadow-2xl hover:bg-slate-800 active:scale-95 transition-all border border-white/10">
-          <span className="text-xl animate-pulse">📞</span> Call Expert
+          <span className="text-xl animate-pulse">📞</span> +91 96069 60679
         </a>
         <a href="https://wa.me/919606960679" className="flex-1 bg-green-600 text-white h-16 rounded-2xl flex items-center justify-center gap-3 font-bold text-base shadow-2xl hover:bg-green-700 active:scale-95 transition-all">
           <img src="https://cdn.simpleicons.org/whatsapp/ffffff" className="w-5 h-5" alt="WA" />
