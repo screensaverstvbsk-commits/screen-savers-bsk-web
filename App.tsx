@@ -1,5 +1,5 @@
 import React from 'react';
-import { SERVICES, BRANDS, COVERAGE } from './constants';
+import { SERVICES, BRANDS, COVERAGE, HUBS } from './constants';
 import AITroubleshooter from './components/AITroubleshooter';
 
 const App: React.FC = () => {
@@ -233,6 +233,18 @@ const App: React.FC = () => {
                 </div>
               </div>
 
+              <div className="mb-12">
+                <div className="p-8 bg-white border border-slate-200 rounded-[2rem] shadow-xl flex gap-6 relative overflow-hidden group hover:border-red-600 transition-colors">
+                  <div className="text-3xl bg-slate-100 w-16 h-16 rounded-2xl flex items-center justify-center">📍</div>
+                  <div>
+                    <h4 className="font-bold mb-2 uppercase tracking-widest text-[10px] text-red-600">Main Technical Lab</h4>
+                    <p className="text-slate-800 font-bold leading-relaxed">
+                      {HUBS[0].address}
+                    </p>
+                  </div>
+                </div>
+              </div>
+
               <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
                 {COVERAGE.map(area => (
                   <div key={area.name} className="flex items-center gap-3 text-xs font-bold text-slate-700 bg-slate-50 p-4 rounded-2xl border border-slate-100/50 hover:bg-white hover:shadow-md transition-all">
@@ -273,6 +285,10 @@ const App: React.FC = () => {
               <p className="text-slate-500 max-w-md leading-relaxed text-lg font-medium">
                 Bengaluru's specialized lab for premium Smart TV restoration. We maintain original factory specifications across all brands we service.
               </p>
+              <div className="space-y-2">
+                <p className="text-slate-400 font-bold uppercase tracking-widest text-[10px]">Main Laboratory</p>
+                <p className="text-slate-500 text-sm">{HUBS[0].address}</p>
+              </div>
               <div className="flex gap-4">
                 {['whatsapp'].map(social => (
                   <a key={social} href="https://wa.me/919606860679" className="w-12 h-12 rounded-2xl bg-white/5 flex items-center justify-center hover:bg-red-600 transition-all border border-white/5 hover:border-red-500 shadow-xl">

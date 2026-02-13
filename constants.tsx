@@ -97,6 +97,10 @@ export const COVERAGE: Area[] = [
 
 export const HUBS: LocationHub[] = [
   {
+    area: 'Bendre Nagar',
+    address: 'Dr.Vishnuvardhan Rd, Kanaka Layout, Bendre Nagar, Bengaluru, Karnataka 560070'
+  },
+  {
     area: 'Uttarahalli',
     address: '12th Cross Rd, Uttarahalli Hobli, Bengaluru, Karnataka 560061'
   },
