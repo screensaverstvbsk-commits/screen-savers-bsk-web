@@ -64,16 +64,16 @@ const AITroubleshooter: React.FC = () => {
           </div>
           <div className="mt-6 pt-4 border-t border-red-200 flex flex-wrap gap-4">
             <a
-              href={`https://wa.me/919606960679?text=Hi, my TV has this issue: ${encodeURIComponent(input)}`}
+              href={`https://wa.me/919606860679?text=Hi, my TV has this issue: ${encodeURIComponent(input)}`}
               className="flex-1 bg-green-600 text-white text-center py-3 rounded-lg font-bold hover:bg-green-700 transition-colors"
             >
               WhatsApp Tech
             </a>
             <a
-              href="tel:+919606960679"
+              href="tel:+919606860679"
               className="flex-1 bg-slate-900 text-white text-center py-3 rounded-lg font-bold hover:bg-slate-800 transition-colors"
             >
-              Call +91 96069 60679
+              Call +91 96068 60679
             </a>
           </div>
         </div>
